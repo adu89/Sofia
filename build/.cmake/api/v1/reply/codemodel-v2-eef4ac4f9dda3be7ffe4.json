@@ -1,0 +1,612 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "Example",
+					"jsonFile" : "directory-Example-Debug-fcb5ceb733991faee781.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Example",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "Sofia",
+					"jsonFile" : "directory-Sofia-Debug-004252d30631c086b7e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Sofia",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ALL",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Sofia",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-66f72acce10dc93491ad.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@358d8db68dd7622887b4",
+					"jsonFile" : "target-ALL_BUILD-Debug-d5053559675901aae681.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ae657efdcc296b4dd552",
+					"jsonFile" : "target-ALL_BUILD-Debug-11ecbcabe55d0d240c46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Example::@358d8db68dd7622887b4",
+					"jsonFile" : "target-Example-Debug-2a513248e8ddf9c89607.json",
+					"name" : "Example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Sofia::@ae657efdcc296b4dd552",
+					"jsonFile" : "target-Sofia-Debug-52681342ce82ab22f329.json",
+					"name" : "Sofia",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-7a6488f9c935cfc8268f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "Example",
+					"jsonFile" : "directory-Example-Release-fcb5ceb733991faee781.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Example",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "Sofia",
+					"jsonFile" : "directory-Sofia-Release-004252d30631c086b7e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Sofia",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ALL",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Sofia",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-66f72acce10dc93491ad.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@358d8db68dd7622887b4",
+					"jsonFile" : "target-ALL_BUILD-Release-d5053559675901aae681.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ae657efdcc296b4dd552",
+					"jsonFile" : "target-ALL_BUILD-Release-11ecbcabe55d0d240c46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Example::@358d8db68dd7622887b4",
+					"jsonFile" : "target-Example-Release-9a2b285bb9ec12970a6e.json",
+					"name" : "Example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Sofia::@ae657efdcc296b4dd552",
+					"jsonFile" : "target-Sofia-Release-437623547083578df73b.json",
+					"name" : "Sofia",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-7a6488f9c935cfc8268f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "Example",
+					"jsonFile" : "directory-Example-MinSizeRel-fcb5ceb733991faee781.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Example",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "Sofia",
+					"jsonFile" : "directory-Sofia-MinSizeRel-004252d30631c086b7e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Sofia",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ALL",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Sofia",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-66f72acce10dc93491ad.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@358d8db68dd7622887b4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d5053559675901aae681.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ae657efdcc296b4dd552",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-11ecbcabe55d0d240c46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Example::@358d8db68dd7622887b4",
+					"jsonFile" : "target-Example-MinSizeRel-23f881d2da5650982248.json",
+					"name" : "Example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Sofia::@ae657efdcc296b4dd552",
+					"jsonFile" : "target-Sofia-MinSizeRel-f5688cc4be3e06dda6a6.json",
+					"name" : "Sofia",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-7a6488f9c935cfc8268f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "Example",
+					"jsonFile" : "directory-Example-RelWithDebInfo-fcb5ceb733991faee781.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Example",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "Sofia",
+					"jsonFile" : "directory-Sofia-RelWithDebInfo-004252d30631c086b7e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Sofia",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ALL",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Sofia",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-66f72acce10dc93491ad.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@358d8db68dd7622887b4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d5053559675901aae681.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@ae657efdcc296b4dd552",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-11ecbcabe55d0d240c46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Example::@358d8db68dd7622887b4",
+					"jsonFile" : "target-Example-RelWithDebInfo-18ae7a5a5a16429a5268.json",
+					"name" : "Example",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Sofia::@ae657efdcc296b4dd552",
+					"jsonFile" : "target-Sofia-RelWithDebInfo-54df5cd22cade40df7bc.json",
+					"name" : "Sofia",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-7a6488f9c935cfc8268f.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build",
+		"source" : "C:/Users/tizia/OneDrive/Documents/Andrew/Sofia"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

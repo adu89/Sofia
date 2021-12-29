@@ -1,0 +1,7 @@
+#include "Sofia/Log.h"
+#include "Sofia/Application.h"
+#include "Sofia/EntryPoint.h"
+#include "Sofia/Events/Event.h"
+#include "Sofia/Events/ApplicationEvent.h"
+#include "Sofia/Widgets/Widgets.h"
+#include "Sofia/Widgets/State.h"

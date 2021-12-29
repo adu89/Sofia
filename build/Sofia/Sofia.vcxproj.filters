@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsGraphicsContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Graphics\GraphicsContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\Theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\Widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsGraphicsContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\EntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Events\ApplicationEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Events\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Events\MouseEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Geometry\Rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Graphics\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Graphics\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Graphics\GraphicsContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\Theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\Widgets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5472CA68-FA00-3A5F-8785-B29DAD066A6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{56AA5817-76C1-3BCC-A5DD-CDEE7BF1AC54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

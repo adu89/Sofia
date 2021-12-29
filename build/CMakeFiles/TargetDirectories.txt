@@ -1,0 +1,6 @@
+C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/CMakeFiles/Example.dir
+C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/CMakeFiles/ALL_BUILD.dir
+C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Sofia/CMakeFiles/Sofia.dir
+C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Sofia/CMakeFiles/ALL_BUILD.dir

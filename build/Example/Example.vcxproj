@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19F7BC98-6A05-3D2A-9EA3-D47C037F87FD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>win32</Platform>
+    <ProjectName>Example</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\Example\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Example.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\Example\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Example.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\Example\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Example.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\Example\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Example.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SF_ENABLE_ASSERTS=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SF_ENABLE_ASSERTS=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Sofia\Debug\Sofia.lib;D2D1.lib;Dwrite.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/Debug/Example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/Debug/Example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SF_ENABLE_ASSERTS=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SF_ENABLE_ASSERTS=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Sofia\Release\Sofia.lib;D2D1.lib;Dwrite.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/Release/Example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/Release/Example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SF_ENABLE_ASSERTS=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SF_ENABLE_ASSERTS=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Sofia\MinSizeRel\Sofia.lib;D2D1.lib;Dwrite.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/MinSizeRel/Example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/MinSizeRel/Example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SF_ENABLE_ASSERTS=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SF_ENABLE_ASSERTS=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\Sofia\3rd\spdlog\include;C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\3rd\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\Sofia\RelWithDebInfo\Sofia.lib;D2D1.lib;Dwrite.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/RelWithDebInfo/Example.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/RelWithDebInfo/Example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/Example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tizia/OneDrive/Documents/Andrew/Sofia -BC:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build --check-stamp-file C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\Example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/Example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tizia/OneDrive/Documents/Andrew/Sofia -BC:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build --check-stamp-file C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\Example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/Example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tizia/OneDrive/Documents/Andrew/Sofia -BC:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build --check-stamp-file C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\Example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/Example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tizia/OneDrive/Documents/Andrew/Sofia -BC:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build --check-stamp-file C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\Example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Example\src\Example.cpp" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsGraphicsContext.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsGraphicsContext.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsInput.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsInput.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsWindow.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Platform\Windows\WindowsWindow.h" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Application.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Application.h" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\EntryPoint.h" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Events\ApplicationEvent.h" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Events\Event.h" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Events\MouseEvent.h" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Geometry\Rectangle.h" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Graphics\Color.h" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Graphics\Font.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Graphics\GraphicsContext.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Graphics\GraphicsContext.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Input.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Input.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Log.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Log.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\State.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\State.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\Theme.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\Theme.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\Widgets.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Widgets\Widgets.h" />
+    <ClCompile Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Window.cpp" />
+    <ClInclude Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\Sofia\src\Sofia\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\ZERO_CHECK.vcxproj">
+      <Project>{CA408643-7A2A-3646-8EEF-5E42FC9BA4AF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\tizia\OneDrive\Documents\Andrew\Sofia\build\Sofia\Sofia.vcxproj">
+      <Project>{C9F436FA-DAFB-3E29-A392-6DFA62821E06}</Project>
+      <Name>Sofia</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

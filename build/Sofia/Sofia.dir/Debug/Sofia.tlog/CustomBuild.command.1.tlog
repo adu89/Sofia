@@ -1,0 +1,10 @@
+^C:\USERS\TIZIA\ONEDRIVE\DOCUMENTS\ANDREW\SOFIA\SOFIA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tizia/OneDrive/Documents/Andrew/Sofia -BC:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build --check-stamp-file C:/Users/tizia/OneDrive/Documents/Andrew/Sofia/build/Sofia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
